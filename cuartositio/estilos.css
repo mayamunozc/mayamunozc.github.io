@@ -1,0 +1,119 @@
+#mainlayout {
+    background-color: #bfbbbc;
+    width:397.5017px;
+    height:565.5729px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(8, 1fr);
+    gap:2px; 
+}
+
+#textoarriba{
+    color: #776e72;
+    grid-column:2/3;
+    grid-row:1/2;
+    font-size: 26px;
+    margin-left:60px;
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+ text-decoration: underline;
+
+}
+
+#textofinal{
+    color: #776e72;
+    grid-column:1/3;
+    grid-row:8/8;
+    font-size: 8px;
+    margin-left:80px;
+    margin-top:-22px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-family: 'Cormorant Garamond', serif;
+    
+    
+
+}
+
+
+
+#sitename1{
+    color: #ea5090;
+    grid-column:1/3;
+    grid-row:1/3;
+    font-size: 70px;
+    margin-top:40px;
+    margin-left:30px;
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.9em;
+    opacity: 0.6;
+    
+
+}
+
+#sitename1:hover{
+    opacity:1;
+
+}
+#textoabajo{
+
+    color: #ea5090;
+    grid-column:1/3;
+    grid-row:8/8;
+    font-size: 26px;
+    margin-left:30px;
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    opacity: 0.6;
+    
+
+}
+#textoabajo:hover{
+    
+    opacity:1;
+}
+
+#fotoatras{
+    grid-column:2/3;
+    grid-row:3/8;
+    margin-left:10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+#fotoadelante{
+
+    grid-column:2/3;
+    grid-row:3/5;
+    margin-left:10px;
+    margin-top:-10px;
+    display: inline-block;
+    opacity:0.6;
+    cursor:pointer;
+    
+}
+
+#fotoadelante:hover{
+    opacity: 0.75;
+    
+}
+
+
+
+    
+  
+
+
+
